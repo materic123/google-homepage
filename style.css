@@ -1,0 +1,107 @@
+/*global*/
+.container {
+  font-family: serif;
+  font-size: 13px;
+  color: rgb(88, 88, 88);
+  margin: 0 0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+main {
+  margin-top: 175px;
+  margin-bottom: 300px;
+}
+
+footer {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0px;
+  border: 0px solid rgb(211, 211, 211);
+  background: WhiteSmoke;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.apps {
+  height: 17px;
+  width: 17px;
+  padding-left: 10px;
+  padding-right: 25px;
+}
+
+.sign-in {
+  background: rgb(72, 133, 237);
+  color: white;
+  border: 0px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-right: 15px;
+  padding: 7px 15px;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+input {
+  display: block;
+  margin: auto;
+}
+
+/*buttons*/
+.wrapper {
+  text-align: center;
+}
+
+.buttons {
+  margin-left: 6px;
+  font-size: 14px;
+  color: rgb(88, 88, 88);
+  padding: 10px 15px;
+  background-color: WhiteSmoke;
+  border: none;
+  border-radius: 4px;
+}
+
+/*search-bar*/
+.search {
+  display: block;
+  background-color: white;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-left: auto;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 25px;
+  height: 40px;
+  width: 575px;
+}
